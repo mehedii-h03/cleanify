@@ -6,6 +6,8 @@ type TBannerCardProps = {
   title: string;
 };
 
+// FIX Have to fix the image tag
+
 const BannerCard = ({ img, title }: TBannerCardProps) => {
   return (
     <div className="card card-compact max-w-72 rounded-none relative">

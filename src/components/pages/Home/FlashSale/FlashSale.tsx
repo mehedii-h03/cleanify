@@ -2,9 +2,11 @@ import Container from "@/components/ui/Container";
 import SectionHeader from "@/components/ui/SectionHeader";
 import ProductCard from "@/components/ui/ProductCard";
 
+// TODO Implement ISR, Dynamic content
+
 const FlashSale = () => {
   return (
-    <section className="mb-32  py-8">
+    <section className="mb-32 py-8">
       <Container>
         <SectionHeader title="Flash Sale" />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 place-items-center place-content-center">

@@ -11,7 +11,7 @@
 
     .primary-btn {
         @apply button bg-TPrimary border border-TPrimary;
-        @apply hover:bg-transparent hover:text-TPrimary;
+        @apply hover:bg-transparent hover:text-TPrimary hover:border-TPrimary;
     }
 }
 

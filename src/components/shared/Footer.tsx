@@ -1,3 +1,5 @@
+// TODO have to use logo and links
+
 const Footer = () => {
   return (
     <section>
@@ -16,8 +18,7 @@ const Footer = () => {
           </svg>
           <p>
             Cleanify
-            <br />
-            A reliable cleaning supply store
+            <br />A reliable cleaning supply store
           </p>
         </aside>
         <nav>
