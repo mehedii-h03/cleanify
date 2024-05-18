@@ -10,20 +10,21 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <Link className="" href="/">
+        <Link className="" href="#flash-sale">
+          Flash Sale
+        </Link>
+      </li>
+      <li>
+        <Link className="" href="#top-categories">
           Categories
         </Link>
       </li>
       <li>
-        <Link className="" href="/">
+        <Link className="" href="#popular-products">
           Products
         </Link>
       </li>
-      <li>
-        <Link className="" href="/">
-          Flash Sale
-        </Link>
-      </li>
+
       <li>
         <Link className="" href="/">
           About us
@@ -39,7 +40,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <Container className="navbar bg-transparent">
+      <Container className="navbar bg-transparent mb-8">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -65,7 +66,7 @@ const Navbar = () => {
               {navItems}
             </ul>
           </div>
-          <a className="btn bg-transparent hover:bg-transparent border-none shadow-none  text-xl">
+          <a className="btn bg-transparent hover:bg-transparent border-none shadow-none text-xl p-0">
             Cleanify
           </a>
         </div>

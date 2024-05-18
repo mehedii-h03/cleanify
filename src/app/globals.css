@@ -6,7 +6,10 @@
 /* layer injects */
 @layer components {
     .button {
-        @apply btn px-6 py-4 text-white rounded-full font-semibold;
+        @apply btn;
+        @apply px-6 py-4;
+        @apply rounded-full font-semibold;
+        @apply text-white;
     }
 
     .primary-btn {
@@ -36,4 +39,46 @@
 
 .menu li>*:not(ul):not(.menu-title):not(details):hover {
     @apply bg-transparent;
+}
+
+
+/* Global app css */
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* React gallery modification */
+
+.image-gallery-image {
+    border-radius: 7px !important;
+}
+
+.image-gallery-thumbnail-image {
+    border-radius: 7px !important;
+    padding: 4px;
+}
+
+.image-gallery-thumbnail.active {
+    border-radius: 7px;
+    border: 2px solid #2D2D2D !important;
+}
+
+.image-gallery-thumbnail:hover {
+    border-radius: 7px;
+    border: 2px solid #2D2D2D !important;
+}
+
+.image-gallery-thumbnail {
+    display: inline-block;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    transition: border .1s ease-out;
+    width: 100px;
+    background: transparent;
+    padding: 0;
+}
+
+.image-gallery-swipe {
+    margin-left: 20px !important;
 }

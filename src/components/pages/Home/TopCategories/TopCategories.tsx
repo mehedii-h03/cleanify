@@ -6,9 +6,9 @@ import { MdArrowForwardIos } from "react-icons/md";
 
 const TopCategories = () => {
   return (
-    <section className="mb-32 space-y-16">
+    <section className="mb-32 space-y-16" id="top-categories">
       <div className="text-center space-y-3">
-        <h3 className="text-TPrimary text-3xl fond-bold">Top Categories</h3>
+        <h3 className="text-TPrimary text-3xl font-bold">Top Categories</h3>
         <p className="text-[#666666] mx-auto max-w-[60ch]">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
           nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.

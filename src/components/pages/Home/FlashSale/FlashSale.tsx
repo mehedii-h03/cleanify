@@ -6,9 +6,9 @@ import ProductCard from "@/components/ui/ProductCard";
 
 const FlashSale = () => {
   return (
-    <section className="mb-32 py-8">
+    <section className="mb-32 py-8" id="flash-sale">
       <Container>
-        <SectionHeader title="Flash Sale" />
+        <SectionHeader title="Flash Sale" url="/flash-sale" />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 place-items-center place-content-center">
           <ProductCard
             img={
