@@ -82,3 +82,14 @@ html {
 .image-gallery-swipe {
     margin-left: 20px !important;
 }
+
+/* Daisy ui collapse */
+.collapse-title,
+:where(.collapse > input[type="checkbox"]),
+:where(.collapse > input[type="radio"]) {
+    min-height: 5px !important;
+}
+
+.collapse-title::after {
+    top: 1rem !important;
+}

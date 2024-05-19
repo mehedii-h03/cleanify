@@ -1,15 +1,20 @@
 type TPageHeaderProps = {
   title: string;
-  description: string;
+  primaryDesc: string;
+  secondaryDesc: string;
 };
 
-const PageHeader = ({ title, description }: TPageHeaderProps) => {
+const PageHeader = ({
+  title,
+  primaryDesc,
+  secondaryDesc,
+}: TPageHeaderProps) => {
   return (
     <div className="space-y-6">
       <h3 className="text-TPrimary text-2xl md:text-3xl font-bold">{title}</h3>
-      <div>
-        <h5 className="text-[#414141] font-bold">Showing 1–12 of 24 items</h5>
-        <p className="text-[#949494]">{description}</p>
+      <div className="space-y-2">
+        <h5 className="text-[#414141] font-bold">{primaryDesc}</h5>
+        <p className="text-[#949494]">{secondaryDesc}</p>
       </div>
     </div>
   );

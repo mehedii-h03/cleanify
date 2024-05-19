@@ -11,7 +11,7 @@ const Page = () => {
     return (
         <section className="mb-32">
             <Container>
-                <PageHeader title={"Flash Sale"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua."} />
+                <PageHeader title={"Flash Sale"} primaryDesc="Showing 1–12 of 24 items" secondaryDesc={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua."} />
                 <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 place-items-center place-content-center">
                     <ProductCard
                         img={
