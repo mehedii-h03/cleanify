@@ -24,15 +24,9 @@ const Navbar = () => {
           Products
         </Link>
       </li>
-
       <li>
-        <Link className="" href="/">
-          About us
-        </Link>
-      </li>
-      <li>
-        <Link className="" href="/">
-          Contact us
+        <Link className="" href="/dashboard">
+          Dashboard
         </Link>
       </li>
     </>
