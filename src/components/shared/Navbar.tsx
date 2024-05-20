@@ -25,7 +25,7 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <Link className="text-base font-medium hover:text-green-500 transition-colors duration-500 ease-in-out" href="/dashboard">
+        <Link className="text-base font-medium hover:text-green-500 transition-colors duration-500 ease-in-out" href="/dashboard/all-products">
           Dashboard
         </Link>
       </li>

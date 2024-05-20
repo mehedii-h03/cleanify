@@ -21,7 +21,7 @@ const ProductCard = ({ img, title, url = "/" }: TProductCardProps) => {
           <div className="w-full flex items-center">
             <div className="flex gap-2 text-sm">
               <p className="line-through text-[#404040]">$250</p>
-              <p className="text-black">$200</p>
+              <p className="text-black font-bold">$200</p>
             </div>
             <IoIosAddCircleOutline className="text-2xl ml-auto cursor-pointer" />
           </div>

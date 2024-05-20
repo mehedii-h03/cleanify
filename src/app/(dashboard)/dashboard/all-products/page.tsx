@@ -1,5 +1,12 @@
-const Page = () => {
-  // TODO have to make the data dynamic
+const Page = async () => {
+  // TODO have to convert it to server side rendering
+
+  const res = await fetch("http://localhost:5000/products", {
+    cache: "no-store"
+  });
+  const products = await res.json();
+
+  console.log(products)
 
   return (
     <div>
@@ -17,29 +24,28 @@ const Page = () => {
             </tr>
           </thead>
           <tbody>
-            {/* row 1 */}
-            <tr className="border">
+            {products?.map((product, i) => <tr key={product._id} className="border">
               <th>
-                <p>1</p>
+                <p>{i + 1}</p>
               </th>
               <td>
                 <div className="flex items-center gap-3">
                   <div className="avatar">
                     <div className="mask mask-squircle w-12 h-12">
-                      <img src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png" />
+                      <img src={product.images.image1} />
                     </div>
                   </div>
                   <div>
-                    <div className="font-bold">Hart Hagerty</div>
+                    <div className="font-bold">{product.title}</div>
                   </div>
                 </div>
               </td>
               <td>
-                <p>Renuar</p>
+                <p>Sufexcel</p>
               </td>
-              <td>Purple</td>
-              <td>Purple</td>
-            </tr>
+              <td>sf3232ss3</td>
+              <td>{product.price}</td>
+            </tr>)}
           </tbody>
         </table>
       </div>
