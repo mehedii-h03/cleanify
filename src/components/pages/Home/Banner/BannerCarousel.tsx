@@ -24,7 +24,7 @@ const BannerCarousel = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 850,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,

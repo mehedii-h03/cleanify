@@ -1,5 +1,5 @@
 const Page = () => {
-// TODO have to make the data dynamic
+  // TODO have to make the data dynamic
 
   return (
     <div>
@@ -26,7 +26,7 @@ const Page = () => {
                 <div className="flex items-center gap-3">
                   <div className="avatar">
                     <div className="mask mask-squircle w-12 h-12">
-                      <img src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png"  />
+                      <img src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png" />
                     </div>
                   </div>
                   <div>
@@ -38,9 +38,7 @@ const Page = () => {
                 <p>Renuar</p>
               </td>
               <td>Purple</td>
-              <th>
-                <button className="btn btn-ghost btn-xs">details</button>
-              </th>
+              <td>Purple</td>
             </tr>
           </tbody>
         </table>

@@ -14,7 +14,7 @@ const BannerCard = ({ img, title }: TBannerCardProps) => {
     <Link href={"/products/1"}>
       <div className="card card-compact max-w-72 rounded-none relative">
         <figure className="rounded-lg">
-          <img className="rounded-[14px] w-full h-56 object-cover" src={img} />
+          <img className="rounded-[14px] w-full h-56 object-top" src={img} />
         </figure>
         <div className="p-3 space-y-2">
           <h2 className="text-sm sm:text-md md:text-lg lg:text-xl text-left">

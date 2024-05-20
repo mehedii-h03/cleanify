@@ -13,7 +13,7 @@ const SectionHeader = ({
   url = "/",
 }: TSectionHeaderProps) => {
   return (
-    <div className="flex items-center justify-between mb-8">
+    <div className="flex flex-col sm:flex-row items-center justify-between mb-8 space-y-4">
       <div>
         <h3 className="text-TPrimary text-2xl md:text-3xl font-bold">
           {title}

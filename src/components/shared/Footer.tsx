@@ -3,7 +3,7 @@
 const Footer = () => {
   return (
     <section>
-      <footer className="footer p-10 bg-[#3D3D3D] text-white">
+      <footer className="footer p-10 bg-TPrimary text-white">
         <aside>
           <svg
             width="50"
@@ -42,7 +42,7 @@ const Footer = () => {
           <a className="link link-hover">Cookie policy</a>
         </nav>
       </footer>
-      <footer className="footer footer-center p-4 bg-[#3D3D3D] border-t border-white text-white">
+      <footer className="footer footer-center p-4 bg-TPrimary border-t border-white text-white">
         <aside>
           <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
         </aside>

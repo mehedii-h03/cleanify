@@ -5,27 +5,27 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <Link className="" href="/">
+        <Link className="text-base font-medium hover:text-green-500 transition-colors duration-500 ease-in-out" href="/">
           Home
         </Link>
       </li>
       <li>
-        <Link className="" href="#flash-sale">
+        <Link className="text-base font-medium hover:text-green-500 transition-colors duration-500 ease-in-out" href="#flash-sale">
           Flash Sale
         </Link>
       </li>
       <li>
-        <Link className="" href="#top-categories">
+        <Link className="text-base font-medium hover:text-green-500 transition-colors duration-500 ease-in-out" href="#top-categories">
           Categories
         </Link>
       </li>
       <li>
-        <Link className="" href="#popular-products">
+        <Link className="text-base font-medium hover:text-green-500 transition-colors duration-500 ease-in-out" href="#popular-products">
           Products
         </Link>
       </li>
       <li>
-        <Link className="" href="/dashboard">
+        <Link className="text-base font-medium hover:text-green-500 transition-colors duration-500 ease-in-out" href="/dashboard">
           Dashboard
         </Link>
       </li>
