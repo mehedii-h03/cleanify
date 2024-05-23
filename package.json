@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
+    "@smastrom/react-rating": "^1.5.0",
     "next": "^14.2.3",
     "react": "^18",
     "react-dom": "^18",
@@ -22,6 +23,8 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-image-gallery": "^1.2.4",
+    "@types/react-slick": "^0.23.13",
     "daisyui": "^4.11.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",

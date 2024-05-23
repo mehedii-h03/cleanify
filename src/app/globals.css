@@ -61,12 +61,12 @@ html {
 
 .image-gallery-thumbnail.active {
     border-radius: 7px;
-    border: 2px solid #2D2D2D !important;
+    border: 2px solid #f8f8f8 !important;
 }
 
 .image-gallery-thumbnail:hover {
     border-radius: 7px;
-    border: 2px solid #2D2D2D !important;
+    border: 2px solid #f8f8f8 !important;
 }
 
 .image-gallery-thumbnail {

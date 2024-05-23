@@ -1,0 +1,167 @@
+[
+  {
+    "title": "Fairy Dishwashing Liquid",
+    "price": 23.21,
+    "ratings": 3.5,
+    "reviews": 242,
+    "brand": "fairy",
+    "productId": "A123",
+    "flashSale": true,
+    "salePrice": 12.21,
+    "images": {
+      "image1": "https://i.ibb.co/T2xgDH8/699244.webp",
+      "image2": "https://i.ibb.co/9tWSphQ/81-NXw-B7-U59-L-AC-UF1000-1000-QL80.jpg",
+      "image3": "https://i.ibb.co/XjkqFBk/fairy-dish-washing-liquid-lemon-750-ml.jpg"
+    },
+    "description1": "Fairy Dishwashing Liquid provides superior grease-cutting power for spotless dishes.",
+    "description2": "Fairy Dishwashing Liquid is your ultimate solution for sparkling clean dishes. Its powerful formula cuts through the toughest grease and grime, ensuring your dishes, pots, and pans are impeccably clean. With a fresh lemon scent, it leaves your kitchen smelling great and feeling refreshed. Gentle on your hands, yet tough on stains, Fairy Dishwashing Liquid makes washing up a breeze, saving you time and effort.",
+    "features1": [
+      "Powerful grease-cutting formula",
+      "Fresh lemon scent",
+      "Gentle on hands"
+    ],
+    "features2": [
+      "Removes tough stains effortlessly",
+      "Leaves dishes sparkling clean",
+      "Concentrated formula for long-lasting use",
+      "Suitable for all dish types"
+    ]
+  },
+  {
+    "title": "Fairy Lemon Dishwashing Liquid",
+    "price": 35.53,
+    "ratings": 4.0,
+    "reviews": 142,
+    "brand": "fairy",
+    "productId": "B234",
+    "flashSale": false,
+    "images": {
+      "image1": "https://i.ibb.co/Gn1bqgb/images.jpg",
+      "image2": "https://i.ibb.co/RBd6Sw2/ANZ-Fairy-Ferragamo-Toolkit-WEBBANNER5-Small.webp",
+      "image3": "https://i.ibb.co/r35BJ0g/PX03351a-01.webp"
+    },
+    "description1": "Fairy Lemon Dishwashing Liquid offers effective grease-cutting power for a sparkling clean finish.",
+    "description2": "Fairy Lemon Dishwashing Liquid is designed to tackle the toughest kitchen messes with ease. Its advanced formula breaks down grease and grime quickly, leaving your dishes spotless and shining. The refreshing lemon scent invigorates your kitchen, while the gentle formula ensures your hands are cared for. Ideal for all types of dishware, Fairy Lemon Dishwashing Liquid is your go-to for efficient and enjoyable dishwashing.",
+    "features1": [
+      "Advanced grease-cutting action",
+      "Invigorating lemon scent",
+      "Skin-friendly formula"
+    ],
+    "features2": [
+      "Effectively removes tough grease and grime",
+      "Leaves dishes sparkling clean and shiny",
+      "Concentrated formula for extended use",
+      "Suitable for all types of dishware"
+    ]
+  },
+  {
+    "title": "Fairy Apple Dishwashing Liquid",
+    "price": 20.31,
+    "ratings": 4.5,
+    "reviews": 142,
+    "brand": "fairy",
+    "productId": "C345",
+    "flashSale": true,
+    "salePrice": 10.21,
+    "images": {
+      "image1": "https://i.ibb.co/KrGTWTc/hgt-hgt-8001090432322-fairy-dishwashing-liquid-lemon-1190ml-1667385364.jpg",
+      "image2": "https://i.ibb.co/rf1BDqN/images.jpg",
+      "image3": "https://i.ibb.co/HrTBr0w/Fairy-Original-Washing-Up-Liquid-Lemon-1024x1024.webp"
+    },
+    "description1": "Fairy Apple Dishwashing Liquid offers powerful cleaning performance for all your dishes.",
+    "description2": "Experience the superior cleaning power of Fairy Apple Dishwashing Liquid. Formulated with advanced grease-cutting technology, this liquid soap effortlessly removes stubborn stains and food residues, leaving your dishes sparkling clean and fresh. The delightful apple fragrance adds a refreshing aroma to your kitchen, while the gentle formula ensures your hands stay soft and smooth. Perfect for everyday use, Fairy Apple Dishwashing Liquid makes dishwashing a breeze.",
+    "features1": [
+      "Advanced grease-cutting technology",
+      "Refreshing apple fragrance",
+      "Gentle on hands"
+    ],
+    "features2": [
+      "Effortlessly removes stubborn stains and residues",
+      "Leaves dishes sparkling clean and fresh",
+      "Suitable for everyday use",
+      "Skin-friendly formula"
+    ]
+  },
+  {
+    "title": "Fairy Platinum Dishwashing Liquid",
+    "price": 40.41,
+    "ratings": 4.9,
+    "reviews": 542,
+    "brand": "fairy",
+    "productId": "D456",
+    "flashSale": false,
+    "images": {
+      "image1": "https://i.ibb.co/6mZyjbv/41-QCs-Wu-4-NL.jpg",
+      "image2": "https://i.ibb.co/7XZYpYR/l-fairy-platinum-dishwashing-liquid-625ml.jpg",
+      "image3": "https://i.ibb.co/Snv9kcT/fairy-platinum-dishwahing-liquid-480ml-720ml.png"
+    },
+    "description1": "Fairy Platinum Dishwashing Liquid offers unmatched cleaning performance for even the toughest dishes.",
+    "description2": "Fairy Platinum Dishwashing Liquid is engineered to provide superior cleaning power for your toughest kitchen messes. With its advanced formula, it cuts through grease and stubborn residues effortlessly, leaving your dishes not just clean but shining like new. The invigorating apple scent brings a fresh aroma to your kitchen, while its gentle formula is kind to your hands. Ideal for everyday use, Fairy Platinum Dishwashing Liquid ensures your dishwashing experience is efficient and pleasant.",
+    "features1": [
+      "Superior grease-cutting formula",
+      "Invigorating apple scent",
+      "Gentle on hands"
+    ],
+    "features2": [
+      "Effortlessly removes tough stains and residues",
+      "Leaves dishes sparkling clean and fresh",
+      "Perfect for everyday use",
+      "Gentle and skin-friendly"
+    ]
+  },
+  {
+    "title": "Dawn Dishwashing Liquid",
+    "price": 14.31,
+    "ratings": 4.2,
+    "reviews": 332,
+    "brand": "dawn",
+    "productId": "E567",
+    "flashSale": true,
+    "salePrice": 11.21,
+    "images": {
+      "image1": "https://i.ibb.co/47y8yXw/Dawn-Ultra-Dishwashing-Liquid-Dish-Soap-Original-Scent-75-fl-oz-6f33b8b0-b19a-43ab-9396-94e027316713.webp",
+      "image2": "https://i.ibb.co/txKWFTN/images-1.jpg",
+      "image3": "https://i.ibb.co/xCWCXNz/6000204885023.webp"
+    },
+    "description1": "Dawn Dishwashing Liquid provides powerful grease-cutting action for a deep clean.",
+    "description2": "Dawn Dishwashing Liquid is the perfect solution for tackling tough kitchen messes. Its powerful formula cuts through grease and grime effortlessly, ensuring your dishes are impeccably clean and shiny. With a refreshing scent, it keeps your kitchen smelling fresh. The gentle formula is safe for your hands, making dishwashing a pleasant experience. Suitable for all types of dishware, Dawn Dishwashing Liquid is your reliable partner for everyday cleaning.",
+    "features1": [
+      "Powerful grease-cutting action",
+      "Refreshing scent",
+      "Gentle on hands"
+    ],
+    "features2": [
+      "Effectively removes tough grease and grime",
+      "Leaves dishes sparkling clean",
+      "Safe for everyday use",
+      "Gentle and skin-friendly formula"
+    ]
+  },
+  {
+    "title": "Dawn Dishwashing Liquid",
+    "price": 32.31,
+    "ratings": 4.3,
+    "reviews": 152,
+    "brand": "dawn",
+    "productId": "F678",
+    "flashSale": false,
+    "images": {
+      "image1": "https://i.ibb.co/47y8yXw/Dawn-Ultra-Dishwashing-Liquid-Dish-Soap-Original-Scent-75-fl-oz-6f33b8b0-b19a-43ab-9396-94e027316713.webp",
+      "image2": "https://i.ibb.co/txKWFTN/images-1.jpg",
+      "image3": "https://i.ibb.co/xCWCXNz/6000204885023.webp"
+    },
+    "description1": "Dawn Dishwashing Liquid provides powerful grease-cutting action for a deep clean.",
+    "description2": "Dawn Dishwashing Liquid is the perfect solution for tackling tough kitchen messes. Its powerful formula cuts through grease and grime effortlessly, ensuring your dishes are impeccably clean and shiny. With a refreshing scent, it keeps your kitchen smelling fresh. The gentle formula is safe for your hands, making dishwashing a pleasant experience. Suitable for all types of dishware, Dawn Dishwashing Liquid is your reliable partner for everyday cleaning.",
+    "features1": [
+      "Powerful grease-cutting action",
+      "Refreshing scent",
+      "Gentle on hands"
+    ],
+    "features2": [
+      "Effectively removes tough grease and grime",
+      "Leaves dishes sparkling clean",
+      "Safe for everyday use",
+      "Gentle and skin-friendly formula"
+    ]
+  }
+]

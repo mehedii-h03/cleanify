@@ -9,7 +9,7 @@ const PopularProducts = () => {
         <SectionHeader
           title={"Most Popular Products"}
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla nunc in molestie feugiat. Nunc auctor consectetur elit, quis pulvina."
-          url="/products"
+          url="/dishwashing-items"
         />
         <PopularProductsCardContainer />
       </Container>

@@ -5,27 +5,42 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <Link className="text-base font-medium hover:text-green-500 transition-colors duration-500 ease-in-out" href="/">
+        <Link
+          className="text-base font-medium hover:text-green-500 transition-colors duration-500 ease-in-out"
+          href="/"
+        >
           Home
         </Link>
       </li>
       <li>
-        <Link className="text-base font-medium hover:text-green-500 transition-colors duration-500 ease-in-out" href="#flash-sale">
+        <Link
+          className="text-base font-medium hover:text-green-500 transition-colors duration-500 ease-in-out"
+          href="#flash-sale"
+        >
           Flash Sale
         </Link>
       </li>
       <li>
-        <Link className="text-base font-medium hover:text-green-500 transition-colors duration-500 ease-in-out" href="#top-categories">
-          Categories
+        <Link
+          className="text-base font-medium hover:text-green-500 transition-colors duration-500 ease-in-out"
+          href="#top-brands"
+        >
+          Brands
         </Link>
       </li>
       <li>
-        <Link className="text-base font-medium hover:text-green-500 transition-colors duration-500 ease-in-out" href="#popular-products">
+        <Link
+          className="text-base font-medium hover:text-green-500 transition-colors duration-500 ease-in-out"
+          href="#popular-products"
+        >
           Products
         </Link>
       </li>
       <li>
-        <Link className="text-base font-medium hover:text-green-500 transition-colors duration-500 ease-in-out" href="/dashboard/all-products">
+        <Link
+          className="text-base font-medium hover:text-green-500 transition-colors duration-500 ease-in-out"
+          href="/dashboard/all-products"
+        >
           Dashboard
         </Link>
       </li>
@@ -60,9 +75,12 @@ const Navbar = () => {
               {navItems}
             </ul>
           </div>
-          <a className="btn bg-transparent hover:bg-transparent border-none shadow-none text-xl p-0">
+          <Link
+            href={"/"}
+            className="btn bg-transparent hover:bg-transparent border-none shadow-none text-xl p-0"
+          >
             Cleanify
-          </a>
+          </Link>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navItems}</ul>

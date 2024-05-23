@@ -1,23 +1,34 @@
-// import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import { IoIosAddCircleOutline } from "react-icons/io";
 
 type TBannerCardProps = {
-  img: string;
-  title: string;
+  productId?: string;
+  img?: string;
+  title?: string;
 };
 
-// FIX Have to fix the image tag
-
-const BannerCard = ({ img, title }: TBannerCardProps) => {
+const BannerCard = ({ productId, img, title }: TBannerCardProps) => {
   return (
-    <Link href={"/products/1"}>
+    <Link href={`/dishwashing-items/${productId}`}>
       <div className="card card-compact max-w-72 rounded-none relative">
-        <figure className="rounded-lg">
-          <img className="rounded-[14px] w-full h-56 object-top" src={img} />
-        </figure>
+        {img ? (
+          <figure className="rounded-lg">
+            <Image
+              width={100}
+              height={100}
+              alt={`${title} image`}
+              className="rounded-[14px] w-full h-56 object-top"
+              src={img}
+            />
+          </figure>
+        ) : (
+          <div className="bg-gray-200 rounded-lg w-full h-56 object-top">
+            <span>No image available</span>
+          </div>
+        )}
         <div className="p-3 space-y-2">
-          <h2 className="text-sm sm:text-md md:text-lg lg:text-xl text-left">
+          <h2 className="text-sm sm:text-md md:text-lg lg:text-xl text-left truncate">
             {title}
           </h2>
           <div className="w-full flex items-center">

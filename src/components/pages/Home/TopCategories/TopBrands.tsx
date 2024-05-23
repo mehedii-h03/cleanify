@@ -1,20 +1,17 @@
-import Container from "@/components/ui/Container";
-import TopCategoriesContainer from "./TopCategoriesContainer";
+import TopBrandsContainer from "./TopBrandsContainer";
 import { MdArrowForwardIos } from "react-icons/md";
 
-// TODO have to change images
-
-const TopCategories = () => {
+const TopBrands = () => {
   return (
-    <section className="mb-32 space-y-16" id="top-categories">
+    <section className="mb-32 space-y-16" id="top-brands">
       <div className="text-center space-y-3">
-        <h3 className="text-TPrimary text-3xl font-bold">Top Categories</h3>
+        <h3 className="text-TPrimary text-3xl font-bold">Top Brands</h3>
         <p className="text-[#666666] mx-auto max-w-[60ch]">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
           nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.
         </p>
       </div>
-      <TopCategoriesContainer />
+      <TopBrandsContainer />
       <div className="text-center">
         <button className="primary-btn">
           View All <MdArrowForwardIos />
@@ -24,4 +21,4 @@ const TopCategories = () => {
   );
 };
 
-export default TopCategories;
+export default TopBrands;

@@ -2,7 +2,17 @@ import Container from "@/components/ui/Container";
 import BannerCarousel from "./BannerCarousel";
 import BannerInfo from "./BannerInfo";
 
-const Banner = () => {
+const Banner = async () => {
+  const res = await fetch(
+    "https://cleanify-black.vercel.app/dishwashing-items",
+    {
+      next: {
+        revalidate: 30,
+      },
+    }
+  );
+  const products = await res.json();
+  const bannerProduct = products.slice(0, 3);
   return (
     <section className="mb-24">
       <div className="relative h-full py-20">
@@ -10,7 +20,7 @@ const Banner = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url(https://img.freepik.com/free-photo/disinfection-equipment-table_23-2148577795.jpg?t=st=1715970149~exp=1715973749~hmac=8f703edd9b9b63faee37c6797c4ebb56010c17b255d297f2050b94aaa9b27ddd&w=900)",
+              "url(https://i.ibb.co/RPKj60D/446024562-766610355648825-7285781231210140593-n.png)",
           }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
@@ -19,7 +29,7 @@ const Banner = () => {
           <div className="relative z-10 flex items-center justify-center h-full text-center text-white">
             <div className="max-w-full ">
               <BannerInfo />
-              <BannerCarousel />
+              <BannerCarousel bannerProduct={bannerProduct} />
             </div>
           </div>
         </Container>
