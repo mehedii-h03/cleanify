@@ -9,7 +9,7 @@ import Filtering from "@/components/pages/Products/Filtering";
 // TODO have to create a meaningfull readme also
 
 const Page = async ({ searchParams }: any) => {
-  let url = `https://cleanify-black.vercel.app/dishwashing-items`;
+  let url = `https://cleanify-server.vercel.app/dishwashing-items`;
 
   if (searchParams.brand) {
     url += `?brand=${searchParams.brand}`;

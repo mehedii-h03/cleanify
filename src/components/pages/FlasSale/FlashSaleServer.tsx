@@ -3,7 +3,7 @@ import { TProduct } from "@/types/types";
 
 const FlashSaleServer = async () => {
   const res = await fetch(
-    "https://cleanify-black.vercel.app/dishwashing-items",
+    "https://cleanify-server.vercel.app/dishwashing-items",
     {
       cache: "no-store",
     }

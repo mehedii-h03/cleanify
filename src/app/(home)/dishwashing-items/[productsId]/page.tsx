@@ -13,7 +13,7 @@ type TProductDetailParams = {
 
 export const generateStaticParams = async () => {
   const res = await fetch(
-    "https://cleanify-black.vercel.app/dishwashing-items"
+    "https://cleanify-server.vercel.app/dishwashing-items"
   );
   const products = await res.json();
   return products.slice(0, 10).map((product: TProduct) => ({
@@ -23,7 +23,7 @@ export const generateStaticParams = async () => {
 
 const Page = async ({ params }: TProductDetailParams) => {
   const res = await fetch(
-    `https://cleanify-black.vercel.app/dishwashing-items/${params.productsId}`,
+    `https://cleanify-server.vercel.app/dishwashing-items/${params.productsId}`,
     {
       cache: "no-store",
     }

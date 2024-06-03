@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Page = async () => {
   const res = await fetch(
-    "https://cleanify-black.vercel.app/dishwashing-items",
+    "https://cleanify-server.vercel.app/dishwashing-items",
     {
       cache: "no-store",
     }

@@ -5,7 +5,7 @@ import { TProduct } from "@/types/types";
 
 const FlashSale = async () => {
   const res = await fetch(
-    "https://cleanify-black.vercel.app/dishwashing-items",
+    "https://cleanify-server.vercel.app/dishwashing-items",
     {
       next: {
         revalidate: 30,
