@@ -1,4 +1,4 @@
-# Event 360
+# Cleanify
 
 Welcome to the Event Cleanify repository! This website represent a dish washing store Management Application.
 
