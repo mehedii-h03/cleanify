@@ -1,6 +1,6 @@
 # Cleanify
 
-Welcome to the Event Cleanify repository! This website represent a dish washing store Management Application.
+Welcome to the Cleanify repository! This website represent a dish washing store Management Application.
 
 ## Live link
 
